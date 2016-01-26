@@ -1,0 +1,140 @@
+/*
+Project Name: Relaxr Landing Page
+Author: Isabelle Andrews
+Front End Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700px
+}
+div {
+	background-image: url('../images/header_bg.jpg');
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 690px;
+	padding-left: 120px;
+	padding-top: 40px;
+}
+.GetitNow{
+	margin:10px;
+	border:solid 5px #f9e42e;
+	background-color:#f9e42e;
+	width: 200px;
+	height: 40px;
+	font-weight: 600;
+	font-size: 28px;
+	border-radius: 5px;
+	color:#033048;
+}
+
+
+header {
+	color:white;
+	font-weight:800;
+	font-size:48px;
+	padding-bottom: 115px;
+}
+h1 {
+	font-weight:600;
+	font-size: 48px;
+	color:white;
+	padding-bottom: 90px;
+}
+.Benefits{
+	color:#033048;
+	background-color:#f0efef;
+	background-image: none;
+	height: 600px;
+	width: 100%;
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	font-weight: 600;
+	font-size: 48px;
+}
+	.Perfect{
+		color:#606161;
+		font-weight: 300;
+		font-size: 26px;
+		padding-left: 10px;
+		padding-bottom: 50px;
+		width: 640px;
+	}
+		.Bullets{
+			color:#606161;
+			font-weight: 300;
+			font-size: 26px;
+			padding-left: 70px;
+			padding-bottom: 100px;
+			width: 500px;
+			line-height: 1.2;
+		}
+.Quote{
+	height:390px;
+	background-image: url('../images/testimonial_bg.jpg');
+	font-size:36px;
+	color:white;
+	padding-top: 80px;
+	padding-bottom:80px;
+	font-weight: 600;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align:center;
+	line-height: 1.2;
+}
+	span {
+		color: white;
+		font-weight:300;
+		font-size:36px;
+		font-style: italic;
+		line-height: 1.2;
+		text-align: center;
+}
+.SignUp{
+	height: 140px;
+	background-color:#f9e42e;
+	background-image: none;
+	padding-right: 460px;
+	padding-left: 500px;
+}
+	.SignUpNow{
+	border:solid 5px #033048;	
+	border-radius: 5px;
+	width: 260px;
+	height:50px;
+	background-color: #033048;
+	color:white;
+	text-align: center;
+	padding-right: 5px;
+	padding-left:5px;
+	padding-bottom: 5px;
+	padding-top: 8px;
+	font-size: 24px;
+	font-weight: 600;
+	}
+
+.Social{
+	background-image: none;
+	background-color:#121212;
+	height: 360px;
+	color:white;
+}
+	.Relaxr{
+		font-weight:800;
+		font-size: 48px;
+		text-align: center;
+		padding-left: 430px;
+		padding-right: 500px;
+		padding-bottom: 100px
+	}
+		.Copyright{
+			padding-left: 430px;
+			font-size:18px;
+		}
